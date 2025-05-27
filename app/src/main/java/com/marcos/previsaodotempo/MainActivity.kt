@@ -30,22 +30,22 @@ class MainActivity : AppCompatActivity() {
 
         binding.trocarTema.setOnCheckedChangeListener { buttonView, isChecked ->
             if (isChecked){ //Tema Escuro - Dark Mode
-                binding.containerPrincipal.setBackgroundColor(Color.parseColor("#000000"))
+                binding.containerPrincipal.setBackgroundResource(R.color.fundoappE)
                 binding.containerInfo.setBackgroundResource(R.drawable.container_info_tema_escuro)
                 binding.txtTituloInfo.setTextColor(Color.parseColor("#000000"))
                 binding.txtInformacoes1.setTextColor(Color.parseColor("#000000"))
                 binding.txtInformacoes2.setTextColor(Color.parseColor("#000000"))
-                binding.txtTemperatura.setTextColor(Color.parseColor("#00BFFF"))
-                binding.txtPaisCidade.setTextColor(Color.parseColor("#00BFFF"))
+                binding.txtTemperatura.setTextColor(Color.parseColor("#010724"))
+                binding.txtPaisCidade.setTextColor(Color.parseColor("#010724"))
                 window.statusBarColor = Color.parseColor("#000000")
             }else{ //Tema Claro
-                binding.containerPrincipal.setBackgroundResource(R.drawable.tempo)
+                binding.containerPrincipal.setBackgroundResource(R.color.fundoapp)
                 binding.containerInfo.setBackgroundResource(R.drawable.container_info_tema_claro)
                 binding.txtTituloInfo.setTextColor(Color.parseColor("#FFFFFF"))
                 binding.txtInformacoes1.setTextColor(Color.parseColor("#FFFFFF"))
                 binding.txtInformacoes2.setTextColor(Color.parseColor("#FFFFFF"))
-                binding.txtTemperatura.setTextColor(Color.parseColor("#001B6B"))
-                binding.txtPaisCidade.setTextColor(Color.parseColor("#001B6B"))
+                //binding.txtTemperatura.setTextColor(Color.parseColor("#606ED3"))
+                //binding.txtPaisCidade.setTextColor(Color.parseColor("#606ED3"))
                 window.statusBarColor = Color.parseColor("#396BCB")
             }
         }

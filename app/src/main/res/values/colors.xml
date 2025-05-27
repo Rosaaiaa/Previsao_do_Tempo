@@ -4,4 +4,11 @@
     <color name="white">#FFFFFFFF</color>
     <color name="dark_blue_300">#396BCB</color>
     <color name="dark_blue_600">#264685</color>
+    <color name="texto">#010D26</color>
+    <color name="fundo">#092A4E</color>
+    <color name="texto2">#030B2F</color>
+    <color name="texto3">#010724</color>
+    <color name="texto4">#1A2A56</color>
+    <color name="fundoapp">#41577E</color>
+    <color name="fundoappE">#021633</color>
 </resources>
